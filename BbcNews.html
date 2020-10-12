@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <script 
+            src="https://kit.fontawesome.com/ae79816129.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" type="text/css" href="CSS/BbcNews_header.css">
+        <link rel="stylesheet" type="text/css" href="CSS/BbcNews_footer.css">
+        <link rel="stylesheet" type="text/css" href="CSS/BbcNews_main.css">
+        <title>BbcNews</title>        
+    </head>
+    <body>
+        <header>
+            <ul class= "top_nav_bar">
+                <li><a href="https://www.bbc.com/" target="_blank">
+                    <img src="media/BbcIcon.jpg" alt="BbcIcon"></a>
+                </li>
+                <li><a 
+                    href="https://session.bbc.com/session?lang=en-GB&ptrt=https:
+                    //www.bbc.com/news/technology-54476524" target="_blank">
+                    <span><i class="fas fa-user-circle"></i> Sign in</span></a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.com/" target="_blank"
+                    ><span>Home</span></a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.com/news" target="_blank"
+                    ><span>News</span></a>
+                 </li>
+                <li>
+                    <a href="https://www.bbc.com/sport" target="_blank"
+                    ><span>Sport</span></a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.com/reel" target="_blank" 
+                    ><span>Reel</span></a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.com/worklife" target="_blank"
+                    ><span>Worklife</span></a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.com/travel" target="_blank"
+                    ><span>Travel</span></a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.com/future" target="_blank"
+                    ><span>Future</span></a>
+                </li>
+                <!--
+                    It will open a new tab with the website with the 
+                    footer_navigation_nav_bar ID and will trigger the block 
+                    element action of the hidden_nav_bar element
+                -->
+                <li><a href=""
+                    ><span>More <i class="fas fa-caret-down"></i></span></a>
+                </li>
+                <li><a 
+                    href="https://www.bbc.co.uk/search" target="_blank"
+                    ><i class="fas fa-search"></i><span> Search</span></a>
+                </li>
+                <!--
+                    empty list to create the same style without flexbox
+                -->
+                <li></li>
+            </ul>
+            <ul class="hidden_nav_bar">
+                <li>
+                    <a href="https://www.bbc.com/future" target="_blank"
+                    ><span>Future</span></a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.com/culture" target="_blank"
+                    ><span>Culture</span></a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.com/culture/music" target="_blank"
+                    ><span>Music</span></a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.co.uk/schedules/" 
+                    target="_blank"><span>TV</span></a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.com/weather" target="_blank"
+                    ><span>Weather</span></a>
+                </li>
+                <li>
+                    <a href="https://www.bbc.co.uk/sounds" target="_blank"
+                    ><span>Sounds</span></a>
+                </li>              
+                <li>
+                    <a href="" ><i id="hide_back" class="fas fa-times fa"></i></a>
+                </li>
+            </ul>
+            <div class="section_news">
+                <a href="https://www.bbc.com/news" 
+                target="_blank"><p id="news_main">NEWS</p></a>
+                <ul class="bottom_nav_bar">
+                    <li>
+                        <a href="https://www.bbc.com/news" target="_blank"
+                        ><span>Home</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.bbc.com/news/election/us2020" 
+                        target="_blank"><span>US election</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.bbc.com/news/coronavirus" 
+                        target="_blank"><span>Coronavirus</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.bbc.com/news/av/10462520" 
+                        target="_blank"><span>Video</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.bbc.com/news/world" 
+                        target="_blank"><span>World</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.bbc.com/news/world/us_and_canada" 
+                        target="_blank"><span>US & Canada</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.bbc.com/news/uk" 
+                        target="_blank"><span>UK</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.bbc.com/news/business" 
+                        target="_blank"><span>Business</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.bbc.com/news/technology" 
+                        target="_blank"><span>Tech</span></a>
+                    </li>
+                    <li>
+                        <a 
+                        href="https://www.bbc.com/news/science_and_environment" 
+                        target="_blank"><span>Science</span></a>
+                    </li>
+                    <li>
+                        <a 
+                        href="https://www.bbc.com/news/stories" target="_blank"
+                        ><span>Stories</span></a>
+                    </li>
+                    <li>
+                        <a href="" 
+                        ><i class="fas fa-bars"></i><span> More</span></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hidden_more_nav_bar">
+                <ul>
+                    <li>
+                        <ul>
+                            <li>
+                                <a href="https://www.bbc.com/news/
+                                entertainment_andarts" target="_blank"
+                                ><span>Enterteinment and Arts</span></a>
+                            </li>
+                            <li>
+                                <a href="https://www.bbc.com/news/health" 
+                                target="_blank"><span>Health</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>
+                                <a href="https://www.bbc.com/news/in_pictures"
+                                target="_blank"><span>In Pictures</span></a>
+                            </li>
+                            <li>
+                                <a href="https://www.bbc.com/news/reality_check"
+                                target="_blank"><span>Reality Check</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>
+                                <a href="https://www.bbc.com/news/
+                                world_radio_and_tv"
+                                target="_blank"><span>World News TV</span></a>
+                            </li>
+                            <li>
+                                <a href="https://www.bbc.com/news/newsbeat"
+                                target="_blank"><span>Newsbeat</span></a>
+                            </li>  
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>
+                                <a href="https://www.bbc.com/news/the_reporters"
+                                target="_blank"><span>Long Reads</span></a>
+                            </li>
+                            <li>
+                                <span>Long Reads</span>
+                            </li>
+                             
+                        </ul>
+                    </li>
+                </ul>     
+            </div>
+        </header>
+        <div class="main_article">
+            <div class="inner_wrap">
+                <div class="section_tech">
+                    <a href="https://www.bbc.com/news/technology" 
+                    target="_blank"><span>Tech</span></a>
+                </div>
+                <h1>
+                    Driverless taxis to be available 
+                    in Phoenix 'in weeks'
+                </h1>
+                <!--
+                    In this case I use duration with text at the time I 
+                    started the project.
+                -->
+                <div class="duration_indicator">
+                    <i class="far fa-clock" 
+                    title="duration"></i><span> 7 hours ago</span>
+                </div>
+                <br>
+                <hr id="border_before_picture">
+                <br>
+                <img src="media/app_in_hand.jpg" alt="phone with the cab app"
+                    class="article_image">                
+                <div class="image_banner">
+                    <p>
+                        Members of the public will be given access 
+                        to an app that will allow them to 
+                        hail a driverless taxi
+                    </p>
+                </div>
+                <h3>
+                    People in Phoenix, Arizona will soon be able to order a 
+                    driverless taxi, as Google expands its Waymo service.
+                </h3>
+                <p>
+                    Vehicles with no human driver on board were previously 
+                    tested by a select group of Waymo customers, 
+                    before the pandemic halted the service.
+                </p>
+                <p>
+                    The driver-free cars will initially be available only 
+                    to friends and family of those early Waymo adopters, 
+                    but will extend to all app users within weeks.
+                </p>
+                <p>
+                    The service comes two years later than originally promised.
+                </p>
+                <p>
+                    The cars will be remotely monitored, with vehicle operators 
+                    intervening in extreme circumstances - such as a 
+                    road ahead being closed.
+                </p>
+                <p>
+                    <a href="https://arstechnica.com/cars/2020/10/waymo-finally-
+                    launches-an-actual-public-driverless-taxi-service/"
+                    target="_blank" 
+                    id="ars_technica_link">According to Ars Technica,</a>
+                    cars will initially only cover a 50 sq mile (130 sq km) 
+                    area in the Phoenix suburbs of Chandler, Tempe and Mesa. 
+                    The company has yet to provide details on exactly how many 
+                    people would be given access to the app that will allow 
+                    them to hail the driverless taxis.
+                </p>
+                <p>
+                    The firm said: "We expect our new driverless service to be 
+                    very popular, and we're thankful to our riders for their 
+                    patience as we ramp up availability to serve demand."
+                </p>
+                <p>
+                    Waymo has around 600 cars in its fleet, but it did not say 
+                    how many of these would operate in the new service.
+                </p>
+                <p>
+                    Before the pandemic, driver-free vehicles provided 5-10% of 
+                    rides (out of 1,000-2,000 rides per week) in 
+                    the designated zone around Phoenix.
+                </p>
+                <p>
+                    Later this year, the firm hopes to reintroduce rides 
+                    with in-car vehicle operators, with barriers between 
+                    the front and rear passenger seat, 
+                    to ensure they are Covid-safe.
+                </p>
+                <p>
+                    The additional vehicles will "add capacity and allow us to 
+                    serve a large geographical area", the company said.
+                </p>
+                <!--
+                    Could not copy any link nor download the video, 
+                    the inspectionreveals that there are lists 
+                    for the different buttons of the player
+                -->
+                <img src="media/Chinese_demostration.jpg" 
+                alt="demostration of chinese concept">
+                <div class="image_banner">
+                <p>
+                    Driverless taxis are now available in 
+                    China’s biggest city, Shanghai
+                </p>
+                </div>
+                <p>
+                    Chris Jones, an automotive analyst at research firm Canalys, 
+                    said Waymo was currently the clear leader in driverless 
+                    technology, and now had to persuade people to 
+                    get in a car without a human driver.
+                </p>
+                <p>
+                    Coronavirus may prove an incentive.
+                </p>
+                <p>
+                    "We have seen concerns about getting into a shared vehicle 
+                    because of the pandemic - and Uber's bookings, for example, 
+                    have dropped significantly," Mr Jones explained.
+                </p>
+                <p>
+                    "People are familiar with Waymo - they have been testing in 
+                    Phoenix for many years. Trust will be important as people ask, 
+                    for example: would I put my daughter in a 
+                    Waymo to take her to school?"
+                </p>
+                <p>
+                    The next stage for the firm will be expanding its 
+                    services to other cities around the US, he added. 
+                    Waymo is currently running tests in around 25 locations.
+                </p>
+                <br>
+                <hr id="artile_final_line">
+                <h3>More on this story</h3>
+                <a href="https://www.bbc.com/news/technology-48334449" 
+                    target="_blank" class="gray_link" >
+                    <h3 class="gray_link">
+                        Robots on the road-how close is our driverless future?
+                    </h3><span class="gray_link">7 March 2019</span> 
+                </a>
+                <a href="https://www.bbc.com/news/47482028" 
+                    target="_blank" class="gray_link" >
+                    <h3 class="gray_link">
+                        Google spin-off Waymo to sell Lidar it fought Uber on
+                    </h3><span class="gray_link">7 March 2019</span> 
+                </a>
+            </div>        
+        </div>
+        <aside>
+            <hr id="top_stories_border">
+            <span id="top_title">Top Stories</span>
+            <div class="top_stories">
+                <div class="link_section">
+                    <a href="https://www.bbc.com/news/world-
+                        us-canada-54482846"><h3>US governor 'moved around' 
+                        as FBI tracked militia</h3>
+                        <div class="duration_indicator">
+                            <i class="far fa-clock" 
+                            title="duration"></i><span> 5 hours ago</span>
+                        </div></a>
+                </div>
+                <div class="link_section">
+                    <a href="https://www.bbc.com/news/election-us-2020-54423928"
+                    ><h3>Why are infections rising again in US?</h3>
+                    <div class="duration_indicator">
+                        <i class="far fa-clock" 
+                        title="duration"></i><span> 1 day ago</span>
+                    </div></a>
+                </div>
+            </div>
+            <div class="features">
+                <h3>Features</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.bbc.com/news/
+                        entertainment-arts-54474630"
+                        ><img src="media/Feature_ballet.jpg" >
+                            <p>
+                                Royal Ballet back on stage with 
+                                social distancing
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.bbc.com/news/in-pictures-54463761"
+                        ><img src="media/Feature_painting.jpg">
+                            <p>
+                                Portraits of the quarantined mind
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.bbc.com/news/in-pictures-54476220"
+                        ><img src="media/Feature_cat_lady.jpg">
+                            <p>
+                                Striking new pictures from around the world
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.bbc.com/news/
+                        science-environment-54486120"
+                        ><img src="media/Feature_black_hole.jpg">
+                            <p>
+                                How history was made in the 2020
+                                science Nobels
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="'I thought I was going to 
+                        die' in homophobic attack"><img 
+                        src="media/Feature_victim.jpg">
+                            <p>
+                                'I thought I'd die' in homophobic attack
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.bbc.com/news/world-africa-54463851"
+                        ><img src="media/Feature_masterpiece.jpg">
+                            <p>
+                                Unknown Nigerian 'masterpiece' goes 
+                                up for auction
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="most_read">
+                <hr id="most_read_line">
+                <h3>Most Read</h3>
+                <ul>
+                    <li><a href="https://www.bbc.com/
+                        news/election-us-2020-54487154">
+                        <p>
+                            White House hosted Covid 'superspreader' 
+                            event, says Dr Fauci
+                        </p></a>
+                    </li>
+                    <li><a href="https://www.bbc.com/n
+                        ews/election-us-2020-54463280">
+                        <p>
+                            Covid: The latest on Trump's 
+                            health in seven graphics
+                        </p></a>
+                    </li>
+                    <li><a href="https://www.bbc.com/
+                        news/election-us-2020-53657174">
+                        <p>
+                            US election 2020 polls: Who 
+                            is ahead - Trump or Biden?
+                        </p></a>
+                    </li>
+                    <li><a href="https://www.bbc.com/news
+                        /world-middle-east-54437222">
+                        <p>
+                            Signs Saudis are edging 
+                            towards historic Israel peace
+                        </p></a>
+                    </li>
+                    <li><a href="https://www.bbc.com/news/technology-54485697">
+                        <p>
+                            US election: Twitter tightens 
+                            rules on etweets and victory claims
+                        </p></a>
+                    </li>
+                    <li><a href="https://www.bbc.com/news/
+                        science-environment-54485407">
+                        <p>
+                            'Real and imminent' extinction risk to whales
+                        </p></a>
+                    </li>
+                    <li><a href="https://www.bbc.com/news/
+                        election-us-2020-54423928">
+                        <p>
+                            Coronavirus: Why are infections rising again in US?
+                        </p></a>
+                    </li>
+                    <li><a href="https://www.bbc.com/
+                        news/world-asia-india-54464451">
+                        <p>
+                            Row over 'insult' to Indian dish Kamala Harris likes
+                        </p></a>
+                    </li>
+                    <li><a href="https://www.bbc.com/n
+                        ews/entertainment-arts-54474954">
+                        <p>
+                            Blake Jenner takes 'full responsibility' for abuse
+                        </p></a>
+                    </li>
+                </ul>
+            </div>
+        </aside>  
+        <!--
+            Due to the unique looks of the icons on the footer I'll use 
+            images for them.The BBC website doesn't open some of the footer 
+            links on new tabs.
+        -->
+        <footer>
+            <div class="footer_title">
+                <span>BBC News Services</span>
+            </div>
+            <div class="footer_nav_bar">
+                <ul>
+                    <li>
+                        <a href="https://www.bbc.co.uk/news/10628994"
+                        ><img src="media/icon_bbc_mobile.jpg" 
+                        alt="mobile smart" title="mobile smart"
+                        ><span> On your mobile</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.bbc.co.uk/news/help-50068132"
+                        ><img src="media/icon_bbc_mike.jpg" 
+                        alt="microphone" title="microphone">
+                        <span> On smart speakers</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.bbc.co.uk/news/10628323" 
+                        ><img src="media/icon_bbc_news.jpg" 
+                        alt="newsletter" title="newsletter"
+                        ><span> Get news alerts</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.bbc.co.uk/news/20039682" 
+                        ><img src="media/icon_bbc_envelope.jpg" 
+                        alt="email" title="email"
+                        ><span> Contact BBC News</span></a>
+                    </li>
+                </ul>
+            </div>
+                <hr id="footer_larger_line">
+                <div class="footer_list_bar">
+                    <ul>
+                        <li>
+                            <ul>
+                                <li>
+                                    <a href="https://www.bbc.com/"
+                                    ><span>Home</span></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bbc.com/news"
+                                    ><span>News</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li>
+                                    <a href="https://www.bbc.com/sport"
+                                    ><span>Sports</span></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bbc.com/reel"
+                                    ><span>Reel</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li>
+                                    <a href="https://www.bbc.com/worklife"
+                                    ><span>Worklife</span></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bbc.com/travel"
+                                    ><span>Travel</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li>
+                                    <a href="https://www.bbc.com/future"
+                                    ><span>Future</span></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bbc.com/culture"
+                                    ><span>Culture</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li>
+                                    <a href="https://www.bbc.com/culture/music"
+                                    ><span>Music</span></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bbc.co.uk/schedules/"
+                                    ><span>TV</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li>
+                                    <a href="https://www.bbc.com/weather"
+                                    ><span>Weather</span></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bbc.co.uk/sounds"
+                                    ><span>Sounds</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>    
+            <div class="footer_lower_nav_bar" id="top_line">
+                <ul>
+                    <li>
+                        <a href="https://www.bbc.co.uk/usingthebbc/terms"
+                        ><span>Terms of Use</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.bbc.co.uk/aboutthebbc"
+                        ><span>About the BBC</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.bbc.co.uk/usingthebbc/privacy"
+                        ><span>Privacy Policy</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.bbc.co.uk/usingthebbc/cookies"
+                        ><span>Cookies</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.bbc.co.uk/accessibility"
+                        ><span>Accessibility Help</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.bbc.co.uk/guidance"
+                        ><span>Parental Guidance</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.bbc.co.uk/contact"
+                        ><span>Contact the BBC</span></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_lower_nav_bar">
+                <ul>
+                    <li>
+                        <a href="https://www.bbc.co.uk/bbcnewsletter"
+                        ><span>Get Personalized Newsletter</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.bbc.co.uk/news/help-41670342"
+                        ><span>Why you can trust the BBC</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.bbcglobalnews.com/home/"
+                        ><span>Advertise with us</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.bbc.com/usingthebbc/cookies/how-
+                        can-i-change-my-bbc-cookie-settings/"
+                        ><span>AdChoices / Do Not Sell My Info</span></a>
+                    </li>                   
+                </ul>
+            </div>
+            <div class="footer_lower_nav_bar">
+                <p>
+                    © 2020 BBC. The BBC is not responsible for the content 
+                    of external sites.<a 
+                    href="https://www.bbc.co.uk/help/web/links/"> 
+                    Read about our approach to external linking.</a>
+                </p>      
+            </div>
+        </footer>
+    </body>
+</html>

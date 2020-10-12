@@ -1,0 +1,129 @@
+.main_section { 
+    font-family: ReithSans,Helvetica,Arial,freesans,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;  
+}
+.main_section p, span, h1, h3,a {
+    color:rgb(40, 40, 40);
+    text-decoration: none;
+}
+.main_article{
+    display: inline-block;
+    width: 50%;    
+    margin-right: 15px;
+    margin-left: 100px;
+}
+.main_article i {
+    color: rgb(104, 104, 104);
+}
+.section_tech span{
+    margin-left: 5px;
+    font-size: 22px;
+    font-weight: 400;    
+}
+.section_tech {
+    width: 55px;    
+    border-bottom: solid 5px rgb(184, 0, 0);
+}
+#top_stories_border{
+    border-top: solid 3px rgb(184, 0, 0);
+}
+#border_before_picture{
+    border-top:  solid 1px rgb(104, 104, 104);
+    border-bottom: 1px;
+}
+#top_title{    
+    font-size: 30px;
+    font-weight: 400;    
+}
+#ars_technica_link{
+    font-weight: 550;       
+}
+#ars_technica_link:hover{
+    color: rgb(184, 0, 0);
+    text-decoration: underline; 
+}
+.image_banner {
+    background-color: rgb(63, 63, 66);
+    color: rgb(238, 238, 238);
+    padding: 5px;
+    margin-top: -5px;
+    padding-left: 10px;
+    text-align: justify;
+}
+.top_stories h3:hover {
+    color: rgb(184, 0, 0);
+}
+.top_stories i {
+    color:  rgb(104, 104, 104);
+}
+.top_stories span {
+    color:  rgb(104, 104, 104);
+}
+.main_article img {
+    width: 100%;
+}
+.gray_link {
+    color: rgb(104, 104, 104);
+}
+a>h3:hover {
+    text-decoration: underline;
+    color: rgb(184, 0, 0);
+}
+.features{
+    margin-top: 20px;
+    border-top: 3px solid rgb(184, 0, 0);
+}
+.features a>p{
+    color: rgb(63, 63, 66);
+    font-weight: 550;
+    margin-left: -25px;
+    font-size: 22px;
+}
+.features a>p:hover{
+    color: rgb(184, 0, 0);
+    text-decoration: underline;
+}
+aside {
+    padding-top: 20px;
+    display: inline-block;
+    width: 33%;
+}
+aside img {
+    width: 90%;
+    margin-left: -25px;
+}
+aside ul {
+    list-style: none;
+}
+#artile_final_line{    
+    margin-right: -15px;
+    border-top:solid 3px rgb(184, 0, 0);
+    border-bottom: 1px;
+}
+#most_read_line{
+    border-top: solid 4px rgb(184, 0, 0);
+    border-bottom: 1px;    
+    margin-left: 18px;
+}
+.most_read h3{
+    color: rgb(63, 63, 66);
+    margin-left: 18px;
+}
+.most_read li{
+    list-style: none;    
+    margin-left: -18px;
+}
+.most_read p{
+    font-weight: 550;
+}
+.most_read span{
+    font-weight: 550;   
+}
+.most_read a:hover{
+    text-decoration: underline;
+    color: rgb(184, 0, 0);
+}
+
+

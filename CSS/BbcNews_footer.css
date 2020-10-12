@@ -1,0 +1,107 @@
+footer {
+    background-color: rgb(40, 40, 40);
+    width: 100%;
+    font-family: ReithSans,Helvetica,Arial,freesans,sans-serif;
+    font-size: 18px;
+    font-weight: 550;    
+    margin-left: -8px;
+    padding-right: 15px;
+    margin-right: 5px;    
+}
+footer li {
+    list-style: none;
+}
+footer a {
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline rgb(255, 255, 255);
+}
+footer span
+{
+    color: rgb(255, 255, 255);
+}
+footer p  {
+    color: rgb(255, 255, 255);
+}
+footer p a {
+    color: rgb(255, 255, 255);
+}
+.footer_title {
+    font-size: 24px;
+    display: block;
+    margin-left:100px;
+    padding-top: 20px;
+    margin-bottom: -5px;
+}
+.footer_nav_bar li{
+    display: inline;    
+    padding-top: 20px;
+    padding-bottom: 20px;     
+}
+.footer_nav_bar img{
+    margin-bottom: -10px;
+}
+.footer_nav_bar li:first-child{
+    margin-left: 75px; 
+}
+.footer_nav_bar li:nth-child(2){
+    margin-left: 145px;
+}
+.footer_nav_bar li:nth-child(3){
+    margin-left: 120px; 
+}
+.footer_nav_bar li:last-child{
+    margin-left: 110px; 
+}
+.footer_list_bar{
+    margin-left: 50px;
+}
+.footer_list_bar hr {
+    border: solid 0.5px rgb(113, 113, 113);
+    margin-top: 20px;
+    margin-right: -10px;
+}
+.footer_list_bar>ul li {
+    display: inline-block;
+}
+.footer_list_bar>ul>li>ul>li{
+    display: block;
+    margin-left: -20px;
+    padding-right: 105px;
+    padding-bottom: 25px;
+    border-right: 1px solid rgb(255, 255, 255);
+}
+.footer_list_bar>ul>li:last-child ul>li{
+    border-right: 1px
+}
+.footer_lower_nav_bar {
+    width: 85%;
+    margin-left:105px;
+    padding-bottom: 5px;
+    background-color: ;
+}
+#top_line{
+    border-top: 1px solid rgb(255, 255, 255);
+
+}
+#footer_larger_line{
+    border-top: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px;
+    margin-right: -15px;
+}
+.footer_lower_nav_bar li{
+    display:inline
+} 
+.footer_lower_nav_bar span {
+    margin-left: -40px;
+    padding-right: 55px;    
+}
+.footer_lower_nav_bar p{
+    font-size: 17px;
+    font-weight: 500;
+}
+.footer_lower_nav_bar p a{
+    font-size: 17px;
+    font-weight: 550;
+}
