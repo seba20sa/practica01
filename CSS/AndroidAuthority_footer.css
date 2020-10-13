@@ -19,14 +19,16 @@ footer i,a,p{
     display: inline-block;
 }
 .nav_bar_links a {
-    margin: 0px 13px;
-
+    margin: 0px 6px;
+}
+.nav_bar_links i {
+    margin: 0px 6px;
 }
 .cell_left {
     
-    padding-right: 800px;
+    padding-right: 700px;
 }
 #more_margin {
-    margin-left: 70px;    
+    margin-left: 50px;    
 }
 
