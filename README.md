@@ -9,4 +9,6 @@ the CCS files for the second website from BBC
 (https://www.bbc.com/news/technology-54476524). All the img files for the two
 sites are in the same media folder.
 
+One final check on the android authority site reveal that the style broke up once the browser was set at 100% size so I made some final modifications.
+
 

@@ -6,7 +6,7 @@ footer a {
     text-decoration: none;
 }
 footer i,a,p{
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);    
 }
 #last_text_footer {
     font-size: 14px;
@@ -19,16 +19,19 @@ footer i,a,p{
     display: inline-block;
 }
 .nav_bar_links a {
-    margin: 0px 6px;
+    margin: 0px 7px;
 }
 .nav_bar_links i {
-    margin: 0px 6px;
+    margin: 0px 7px;
 }
-.cell_left {
-    
-    padding-right: 700px;
+.cell_left {    
+    padding-right: 590px;
+    margin-left: 20px;
+}
+table {
+    margin-left: 45px;
 }
 #more_margin {
-    margin-left: 50px;    
+    margin-left: 60px;    
 }
 
