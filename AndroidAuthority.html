@@ -7,10 +7,20 @@
             src="https://kit.fontawesome.com/ae79816129.js"
             crossorigin="anonymous"
         ></script>
-        <title>Practica01</title>        
+        <link rel="stylesheet" type="text/css" 
+        href="CSS/AndroidAuthority_header.css">
+        <link rel="stylesheet" type="text/css" 
+        href="CSS/AndroidAuthority_article.css">
+        <link rel="stylesheet" type="text/css" 
+        href="CSS/AndroidAuthority_footer.css">
+        <title>AndroidAuthority</title>
     </head>
     <body>
         <header>
+            <button 
+                class="red_button" type="button"><a 
+                href="BbcNews.html" target="_blank" >BBC article</a>
+            </button>
             <div class="header_widget">
                 <!--Span to provide unique styling-->    
                 <span>
@@ -19,7 +29,8 @@
                 <a href="https://www.androidauthority.com/external-links/" 
                     target="_blank">Learn more.
                 </a>                
-            </div>            
+            </div>
+            <br>            
             <div class="news_selection">
                 <a href="https://www.androidauthority.com/news/" 
                     target="_blank">NEWS
@@ -35,47 +46,46 @@
             <div class="author_info">
                 <table class="social_media_author_share_counter">
                     <tr>
-                        <td><a 
+                        <td><a id="facebook_icon"
+                            class="icon_social_media" 
+                            href="https://www.facebook.com/sharer.php?app_id=598
+                            473026880919&u=https://www.androidauthority.com/sony
+                            -xperia-5-ii-1151606/&t=Sony+Xperia+5+II%3A+Everythi
+                            ng+you+need+to+know+about+this+compact+powerhouse"
+                            ><i class="fa fa-facebook" aria-hidden="true"
+                            ></i></a> 
+                        </td>
+                        <td><a id="twitter_icon"
                             class="icon_social_media" 
                             href="https://twitter.com/intent/tweet?url=https://w
                             ww.androidauthority.com/sony-xperia-5-ii-1151606/&te
                             xt=Sony+Xperia+5+II%3A+Everything+you+need+to+know+a
-                            bout+this+compact+powerhouse" target="_blank"><i 
-                            class="fa fa-twitter" aria-hidden="true"></i>
-                        </a></td>
-                        <td><a 
-                            class="icon_social_media" href="https://www.facebook
-                            .com/sharer.php?app_id=598473026880919&u=https://www
-                            .androidauthority.com/sony-xperia-5-ii-1151606/&t=So
-                            ny+Xperia+5+II%3A+Everything+you+need+to+know+about+
-                            this+compact+powerhouse" data-vars-outbound-link="ht
-                            tps://www.facebook.com/sharer.php?app_id=59847302688
-                            0919&amp;u=https://www.androidauthority.com/best-new
-                            -laptops-1026915/&amp;t=The+best+new+laptops+to+look
-                            +forward+to+%28October+2020%29" 
-                            target="_blank"><i class="fa fa-facebook" 
-                            aria-hidden="true"></i>
-                        </a></td>
-                        <td><hr width="3%"></td>
+                            bout+this+compact+powerhouse" 
+                            target="_blank"><i class="fa fa-twitter" 
+                            aria-hidden="true"></i></a> 
+                        </td>
+                        <td><hr></td>
                         <!--
                             the Shares counter is in text but must be a function
                             on js
                         -->
-                        <td><p>1.3K Shares</span></td>
+                        <td id="border_circle_right"><p>1.3K Shares</p ></td>
                         <td><img
                                 src="media/eric_zeman_selfie.jpeg" 
                                 alt="author social media picture" 
                                 class="selfie first_selfie" height="auto" 
                                 width="40x"
                         ></td>
-                        <td><p><a 
+                        <td>
+                            <p><a id="Eric_1"
                                 href="https://www.androidauthority.com/
                                 author/ericzeman/" target="_blank" 
                                 title="See all posts from thisauthor">
-                                Eric Seman</a> / <a href="https://twitter.com/zeman_e" 
+                                Eric Seman</a> / <a id="Eric_2"
+                                href="https://twitter.com/zeman_e" 
                                 target="_blank" title="Follow me on twitter">
-                                @zeman_e
-                        </a></p></td>
+                                @zeman_e</a></p>    
+                        </td>
                     </tr>
                 </table>
             </div>
@@ -84,14 +94,12 @@
             Introductory section, it will have the same 
             style as the other articles
         -->        
-        <section class="article">          
+        <section class="article_section">          
             <img 
                 src="media/Xperia-5-II_generic_cut_display_black_1200x675.jpg" 
                 alt="Xperia II generic cut display black" class="article_image" 
-                title="Xperia II generic cut display black"  height="auto" 
-                width="90%"
-            >
-            <p>Credit: Eric Zeman / Android Authority</p>
+                title="Xperia II generic cut display black">
+            <p class="credits">Credit: Eric Zeman / Android Authority</p>
             <p>
                 Sony revealed the <a href="https://www.androidauthority.com/sony
                 -xperia-5-review-1026319/"
@@ -110,7 +118,8 @@
                  multimedia lovers?
             </p>
             <p>
-                We have all the basics handled in this <em>Android Authority</em>
+                We have all the basics handled in this 
+                <em>Android Authority</em>
                 buyer’s guide to help you form an early opinion.
             </p>
             <h2>Sony Xperia 5 II: What is it?</h2>
@@ -118,13 +127,12 @@
                 src="media/Xperia-5-II_Display_Main_1200x675.jpg" 
                 alt="Xperia 5 II main display" 
                 class="article_image" 
-                title="Xperia 5 II main display" 
-                height="auto" width="90%"
-            >
-            <p>Credit: Eric Zeman / Android Authority</p>
+                title="Xperia 5 II main display">
+            <p class="credits">Credit: Eric Zeman / Android Authority</p>
             <p>
-                The Sony Xperia 5 II is Sony’s second take on an affordable flags
-                hip. The company <a href="https://www.androidauthority.com/sony
+                The Sony Xperia 5 II is Sony’s second take 
+                on an affordable flagship. The company <a 
+                href="https://www.androidauthority.com/sony
                 -xperia-5-1025743/" 
                 target="_blank">revealed</a> the original Xperia 5 in September 
                 2019 and thus this sequel arrives right on time for the 2020 
@@ -160,15 +168,13 @@
                 the right mix in the Xperia 5 II? Let’s dive into the specifics.
             </p>
         </section>           
-        <article class="article">
+        <article class="article_section">
             <h2>What are the Sony Xperia 5 II’s features?</h2>
             <img 
                 src="media/Xperia-5-II_design_specific_black_16.9_1200x675.jpg"
                 alt="Xperia 5 II design" 
-                title="Xperia 5 II design specific black 16:9" 
-                height="auto" width="90%"
-            >
-            <p>Credit: Eric Zeman / Android Authority</p>
+                title="Xperia 5 II design specific black 16:9">
+            <p class="credits">Credit: Eric Zeman / Android Authority</p>
             <p>
                 Sony centered the Xperia 5 II around three tentpoles: imaging, 
                 gaming, and performance.
@@ -207,10 +213,8 @@
             </p> 
             <img 
                 src="media/Xperia-5-II_Camera_Main_black_16_9_1200x675.jpg" 
-                alt="Main Camera" title="Xepria 5 II main camera black 16:9" 
-                height="auto" width="90%"
-            >
-            <p>
+                alt="Main Camera" title="Xepria 5 II main camera black 16:9">
+            <p class="credits">
                 Credit: Eric Zeman / Android Authority
             </p>
             <p>
@@ -250,7 +254,7 @@
                 alt="Sony Zeiss 16:9" title="Sony Zeiss 16:9" 
                 height="auto" width="90%"
             >
-            <p>
+            <p class="credits">
                 Credit: Eric Zeman / Android Authority
             </p>
             <p>
@@ -289,117 +293,116 @@
             <h2>Specs</h2>            
             <table class="specs_table">
                 <tr>
-                    <th colspan="2">Sony Xperia 5 ii</th>
+                    <th colspan="2"><span>Sony Xperia 5 II</span></th>
                 </tr>
                 <tr>
-                    <td rowspan="5">Display</td>
-                    <td>6.1-inch OLED</td>                                      
+                    <td rowspan="5"><span>Display</span></td>
+                    <td class="odd_section"><span>6.1-inch OLED</span></td>                                      
                 </tr>
                 <tr>
-                    <td>120HZ refresh rate</td>                      
+                    <td class="odd_section"><span>120HZ refresh rate</span></td>                      
                 </tr>
                 <tr>
-                    <td>240Hz touch scanning</td>  
+                    <td class="odd_section"><span>240Hz touch scanning</span></td>                    
                 </tr>
-                    <td>FHD+ resolution</td>
-                </tr>
-                <tr>
-                    <td>21:9 aspect ratio</td>
+                <td class="odd_section"><span>FHD+ resolution</span></td>                    
                 </tr>
                 <tr>
-                    <td rowspan="2">Processor</td>
-                    <td>Qualcomm Snapdragon 865</td>
+                    <td class="odd_section"><span>21:9 aspect ratio</span></td>                    
                 </tr>
                 <tr>
-                    <td>Adreno 650 GPU</td>
+                    <td rowspan="2"><span>Processor</span></td>
+                    <td><span>Qualcomm Snapdragon 865</span></td>                    
                 </tr>
                 <tr>
-                    <td>RAM</td>
-                    <td>8GB</td>
+                    <td><span>Adreno 650 GPU</span></td>                    
                 </tr>
                 <tr>
-                    <td>storage</td>
-                    <td>128 or 2565GB</td>
+                    <td><span>RAM</span></td>
+                    <td class="odd_section"><span>8GB</span></td>  
+                </tr>
+                <tr>
+                    <td><span>Storage</span></td>
+                    <td><span>128 or 2565GB</span></td>    
                 </tr>
                 <!--11rows tall, leaving two empty rows(cells) to have the 
                     aditional space that is shown on the site
                 -->
                 <tr>
-                    <td rowspan="11">Camera</td>
-                    <td>Rear:</td>
+                    <td rowspan="11"><span>Camera</span></td>
+                    <td class="odd_section"><span>Rear:</span></td>
                 </tr>
                 <tr>
-                    <td>Ultra-wide: 12MP, 16mm</td>
+                    <td class="odd_section"><span>Ultra-wide: 12MP, 16mm</span></td>
                 </tr>
                 <tr>
-                    <td>Wide: 12MP, 24mm, f/1.7 aperture, PDAF</td>
+                    <td class="odd_section"><span>Wide: 12MP, 24mm, f/1.7 aperture, PDAF</span></td>
                 </tr>
                 <tr>
-                    <td>Telephoto: 12MP, 70mm, PDAF, OIS</td>
+                    <td class="odd_section"><span>Telephoto: 12MP, 70mm, PDAF, OIS</span></td>
                 </tr>
                 <tr>
-                    <td>Eye AF, 20fps tracking</td>
+                    <td class="odd_section"><span>Eye AF, 20fps tracking</span></td>
                 </tr>
                 <tr>
-                    <td></td>
+                    <td class="odd_section"><span></span></td>
                 </tr>                
                 <tr>
-                    <td>Video:</td>
+                    <td class="odd_section"><span>Video:</span></td>
                 </tr>
                 <tr>
-                    <td>4K @ 120fps</td>
+                    <td class="odd_section"><span>4K @ 120fps</span></td>
                 </tr>
                 <tr>
-                    <td></td>
+                    <td class="odd_section"><span></span></td>                    
                 </tr>                
                 <tr>
-                    <td>Front:</td>
+                    <td class="odd_section"><span>Front:</span></td>
                 </tr>
                 <tr>
-                    <td>8MP</td>
+                    <td class="odd_section"><span>8MP</span></td>
                 </tr>
                 <tr>
-                    <td rowspan="2">Battery</td>
-                    <td>4,000mAh</td>
+                    <td rowspan="2"><span>Battery</span></td>
+                    <td><span>4,000mAh</span></td>
                 </tr>
                 <tr>
-                    <td>21W charging</td>
+                    <td><span>21W charging</span></td>
                 </tr>
                 <tr>
-                    <td rowspan="5">Audio</td>
-                    <td>3.5mm headphone jack</td>
+                    <td rowspan="5"><span>Audio</span></td>
+                    <td class="odd_section"><span>3.5mm headphone jack</span></td>
                 </tr>
                 <tr>
-                    <td>Stereo speakers</td>
+                    <td class="odd_section"><span>Stereo speakers</span></td>
                 </tr>
                 <tr>
-                    <td>Dolby Atmos</td>
+                    <td class="odd_section"><span>Dolby Atmos</span></td>
                 </tr>
                 <tr>
-                    <td>DSEE</td>
+                    <td class="odd_section"><span>DSEE</span></td>
                 </tr>
                 <tr>
-                    <td>360 Reality Audio</td>
+                    <td class="odd_section"><span>360 Reality Audio</span></td>
                 </tr>
                 <tr>
-                    <td rowspan="2">Dimensions and weight</td>
-                    <td>158 x 68 x 8mm</td>
+                    <td  rowspan="2"><span>Dimensions and weight</span></td>
+                    <td><span>158 x 68 x 8mm</span></td>
                 </tr>
                 <tr>
-                    <td>163g</td>
+                    <td><span>163g</span></td>
                 </tr>
                 <tr>
-                    <td>Color</td>
-                    <td>Black</td>
+                    <td><span>Color</span></td>
+                    <td class="odd_section"><span>Black</span></td>
                 </tr>                                
             </table>            
             <h2>Competition and alternatives</h2>
             <img 
                 src="media/Xperia-5-II_water_resistance_black_1200x675.jpg" 
                 alt="Xperia Water Resistance" 
-                title="Xperia Water Resistance Black" height="auto" width="90%"
-            >
-            <p>Credit: Eric Zeman / Android Authority</p>            
+                title="Xperia Water Resistance Black">
+            <p class="credits">Credit: Eric Zeman / Android Authority</p>            
             <p>
                 Competition in the sub-$1,000 space is high. You’ve got solid 
                 offerings from just about every major player, including Samsung, 
@@ -425,7 +428,8 @@
             </p>
             <p>
                 You can’t discount Google. The <a 
-                href="https://www.androidauthority.com/google-pixel-4-xl-990519/" 
+                href="https://www.androidauthority.com/
+                google-pixel-4-xl-990519/" 
                 target="_blank"> Google Pixel 4 and 4 XL</a> may have been 
                 discontinued already, but they are still viable competitors if 
                 you can find them. What’s more, the <a 
@@ -447,12 +451,11 @@
                 it’s often on sale for $799.
             </p>
             <h2>Where to buy the Sony Xperia 5 II</h2>
-            <img 
-                src="media/Xperia-5-II_in-hand_capturing_one_hand_1200x675.jpg" 
-                alt="Xperia 5 II in one hand" title="Xperia 5 II  capturing in 
-                one hand" height="auto" width="90%"
-            >
-            <p>Credit: Eric Zeman / Android Authority</p>
+            <img src="media/Xperia-5-II_in-hand_capturing_one_hand_1200x675.jpg"
+                alt="Xperia 5 II in one hand" title="Xperia 5 II  capturing in">
+                <p class="credits">
+                    Credit: Eric Zeman / Android Authority
+                </p>
             <p>
                 Preorders for the Sony Xperia 5 II open up on September 29. 
                 The phone will be available unlocked from <a 
@@ -491,44 +494,44 @@
             </p>
             <h2>Top Sony Xperia 5 II questions and answers</h2>
             <p 
-                class="question"><b>Q: Does the Sony Xperia 5 II support 5G?</b>
+                class="question">Q: Does the Sony Xperia 5 II support 5G?
             </p>
             <p 
                 class="answer">A: Yes, it supports sub-6GHz 5G networks, though 
                 not in the US.
             </p>
             <p 
-                class="question"><b>Q: Does the Sony Xperia 5 II have a 
-                headphone jack?</b>
+                class="question">Q: Does the Sony Xperia 5 II have a 
+                headphone jack?
             </p>
             <p 
                 class="answer">A: Yes, it includes a headphone jack as well as 
                 advanced codecs for processing sound</p>
             <p 
-                class="question"><b>Q: Does the Sony Xperia 5 II support 
-                wireless charging?</b>
+                class="question">Q: Does the Sony Xperia 5 II support 
+                wireless charging?
             </p>
             <p 
                 class="answer">A: No, it doesn’t. It charges at a speed of 
                 21W via USB-C cable and an optional power supply.
             </p>
             <p 
-                class="question"><b>Q: Does the Sony Xperia 5 II have dual-SIM 
-                capabilities?</b>
+                class="question">Q: Does the Sony Xperia 5 II have dual-SIM 
+                capabilities?
             </p>
             <p 
                 class="answer">A: No, it does not.
             </p>
             <p 
-                class="question"><b>Q: Does the Sony Xperia 5 II have a microSD 
-                card slot?</b>
+                class="question">Q: Does the Sony Xperia 5 II have a microSD 
+                card slot?
             </p>
             <p 
                 class="answer">A: Yes, the phone supports expandable storage. 
-                Sony has not said how much (1TB, 2TB, etc.)</b>
+                Sony has not said how much (1TB, 2TB, etc.)
             </p>
             <p 
-                class="question"><b>Q: What storage variants is the phone 
+                class="question">Q: What storage variants is the phone 
                     available in?
             </p>
             <p 
@@ -536,111 +539,170 @@
                 128GB or 256GB of internal storage.
             </p>
             <p 
-                class="question"><b>Q: Does the device have stereo speakers?</b>
+                class="question">Q: Does the device have stereo speakers?
             </p>
             <p 
                 class="answer">A: Yes, the phone has two front-facing speakers 
                 that generate high-quality stereo sound.
             </p>
             <p 
-                class="question"><b>Q: What colors will the Sony Xperia 5 II be 
-                available in?</b>
+                class="question">Q: What colors will the Sony Xperia 5 II be 
+                available in?
             </p>
             <p 
                 class="answer">A: The phone will come in just one color: black
-            </p>          
+            </p>
+            <div class="comment_section">
+                <span id="comments_title_a">COMMENTS</span>
+                <hr id="comments_line_a">
+                <br>
+                <!--
+                    this will trigger the action that will open the comment section
+                    withing the page
+                -->
+                <p id="button_sausage">Read coments</p>
+                <!--
+                    From here to the footer there are ads from the website
+                    the footer takes a width of 100% 
+                -->
+            </div>          
         </article>
-        <div class="comment_section">
-            <p>Comments</p>
-            <hr>
-            <!--
-                this will trigger the action that will open the comment section
-                withing the page
-            -->
-            <button type="button">Read coments</button>
-        </div>
         <footer>
-            <div>
-                <a 
-                    href="https://www.androidauthority.com/" 
-                    target="_blank"><img src="media/android_authority_logo.jpg" 
-                    alt="company logo">
-                </a>
-                <p>Your source for all things Android!</p>
-            </div>    
-            <nav>
-                <a 
-                    href="https://www.androidauthority.com/about" 
-                    target="_blank">About
-                </a>
-                <a 
-                    href="https://www.androidauthority.com/contact/" 
-                    target="_blank">Contact
-                </a>
-                <a 
-                    href="https://www.androidauthority.com/jobs/" 
-                    target="_blank">Jobs
-                </a>
-                <a 
-                    href="https://partners.androidauthority.com/" 
-                    target="_blank">Advertise
-                </a>
-                <a 
-                    href="https://www.androidauthority.com/privacy-policy/" 
-                    target="_blank">Privacy policy
-                </a>
-            </nav>
-            <a 
-                class="Icons-Color" href="https://twitter.com/androidauth" 
-                target="_blank"><i class="fa fa-twitter" 
-                aria-hidden="true"></i>
-            </a>
-            <a 
-                class="Icons-Color" 
-                href="https://www.facebook.com/androidauthority" 
-                target="_blank"><i class="fa fa-facebook" 
-                aria-hidden="true"></i>
-            </a>
-            <a 
-                class="Icons-Color" 
-                href="https://www.instagram.com/androidauthority" 
-                target="_blank"><i class="fa fa-instagram" 
-                aria-hidden="true"></i>
-            </a>
-            <a 
-                class="Icons-Color" 
-                href="https://www.youtube.com/channel/UCgyqtNWZmIxTx3b6OxTSALw?
-                sub_confirmation=1" target="_blank"><i class="fa fa-youtube" 
-                aria-hidden="true"
-                ></i>
-            </a>
-            <a 
-                class="Icons-Color" 
-                href="https://www.androidauthority.com/podcast/" 
-                target="_blank"
-                ><i class="fa fa-podcast" aria-hidden="true"
-                ></i>
-            </a>
-            <a 
-                class="Icons-Color" 
-                href="https://www.androidauthority.com/feed" 
-                target="_blank"><i class="fa fa-rss" aria-hidden="true"
-                ></i>
-            </a>
-            <a 
-                class="Icons-Color" href="https://play.google.com/store/apps/
-                details?id=com.androidauthority.app" 
-                target="_blank"><i 
-                class="fab fa-google-play" aria-hidden="true"></i>
-            </a>
-            <a class="Icons-Color" 
-                href="https://www.androidauthority.com/newsletter" 
-                target="_blank"><i class="fa fa-envelope" 
-                aria-hidden="true"></i>
-            </a>
-            <br>
-            <p>©2020 Android Authority | All Rights Reserved.</p>
-            <br>
+            <table>
+                <tr>
+                    <td 
+                        class="cell_left"><a 
+                        href="https://www.androidauthority.com/" 
+                        target="_blank"><img 
+                        src="media/android_authority_logo.jpg" 
+                        alt="company logo">
+                        </a>
+                    </td>
+                    <td>
+                        <ul class="nav_bar_links">
+                            <li>
+                                <a 
+                                href="https://www.androidauthority.com/about" 
+                                target="_blank">About
+                            </a>
+                            </li>
+                            <li>
+                                <a 
+                                    href="https://www.androidauthority.
+                                    com/contact/" target="_blank">Contact
+                                </a>                                
+                            </li>
+                            <li>
+                                <a 
+                                href="https://www.androidauthority.com/jobs/" 
+                                target="_blank">Jobs
+                            </a>                                
+                            </li>
+                            <li>
+                                <a 
+                                href="https://partners.androidauthority.com/" 
+                                target="_blank">Advertise
+                            </a>                                
+                            </li>
+                            <li>
+                                <a 
+                                href="https://www.androidauthority.
+                                com/privacy-policy/" target="_blank">
+                                Privacy policy </a>                                
+                            </li>
+                        </ul>                        
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cell_left">
+                        <p>Your source for all things Android!</p>                       
+                    </td>
+                    <td>
+                        <ul class="nav_bar_links">
+                            <li id="more_margin">
+                                <a 
+                                    class="Icons-Color" href="https://
+                                    twitter.com/androidauth" 
+                                    target="_blank"><i class="fa fa-twitter" 
+                                    aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a 
+                                    class="Icons-Color" 
+                                    href="https://www.facebook.com/
+                                    androidauthority" 
+                                    target="_blank"><i class="fa fa-facebook" 
+                                    aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a 
+                                    class="Icons-Color" 
+                                    href="https://www.instagram.com/
+                                    androidauthority" 
+                                    target="_blank"><i class="fa fa-instagram" 
+                                    aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a 
+                                    class="Icons-Color" 
+                                    href="https://www.youtube.com/channel/
+                                    UCgyqtNWZmIxTx3b6OxTSALw?
+                                    sub_confirmation=1" 
+                                    target="_blank"><i class="fa fa-youtube" 
+                                    aria-hidden="true"
+                                    ></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a 
+                                    class="Icons-Color" 
+                                    href="https://www.
+                                    androidauthority.com/podcast/" 
+                                    target="_blank"
+                                    ><i class="fa fa-podcast" aria-hidden="true"
+                                    ></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a 
+                                    class="Icons-Color" 
+                                    href="https://www.androidauthority.com/feed" 
+                                    target="_blank"><i class="fa fa-rss" 
+                                    aria-hidden="true"
+                                    ></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a 
+                                    class="Icons-Color" 
+                                    href="https://play.google.com/store/apps/
+                                    details?id=com.androidauthority.app" 
+                                    target="_blank"><i 
+                                    class="fab fa-google-play" 
+                                    aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="Icons-Color" 
+                                href="https://www.androidauthority.
+                                com/newsletter" 
+                                target="_blank"><i class="fa fa-envelope" 
+                                aria-hidden="true"></i>
+                            </a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+                <br>
+                <p id="last_text_footer">©2020 Android Authority | 
+                    All Rights Reserved.
+                </p>
+                <br>
+            </div>
         </footer>
     </body>
 </html>

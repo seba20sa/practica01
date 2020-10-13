@@ -1,0 +1,32 @@
+
+footer {
+    background-color: rgb(245, 245, 245) 
+}
+footer a {    
+    text-decoration: none;
+}
+footer i,a,p{
+    color: rgb(0, 0, 0);
+}
+#last_text_footer {
+    font-size: 14px;
+    text-align: center;
+    padding: 15px 0px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: -10px;
+}
+.nav_bar_links>li{
+    display: inline-block;
+}
+.nav_bar_links a {
+    margin: 0px 13px;
+
+}
+.cell_left {
+    
+    padding-right: 800px;
+}
+#more_margin {
+    margin-left: 70px;    
+}
+

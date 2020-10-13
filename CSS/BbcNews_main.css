@@ -8,6 +8,10 @@
     color:rgb(40, 40, 40);
     text-decoration: none;
 }
+h1 {
+    font-weight: 600;
+    font-size: 50px;
+}
 .main_article{
     display: inline-block;
     width: 50%;    

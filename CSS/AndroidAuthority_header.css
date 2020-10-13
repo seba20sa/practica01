@@ -1,0 +1,85 @@
+.red_button {    
+    background-color: red;    
+}
+.red_button a {
+    text-decoration: none;
+}
+.red_button:hover {    
+    background-color: yellow;    
+}
+header {
+    width: 60%;
+    margin-left: 20%;
+}
+.header_widget {
+    font-size:14px;    
+    padding: 15px 10px 15px 15px;
+    background-color: rgba(248, 248, 251, 0.8);
+}
+.header_widget a{
+    color: rgb(57, 220, 180);
+}
+header h1 {    
+    color:rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: -1.54px;
+    line-height: 60px;    
+}
+.news_selection a{
+    text-align: center;
+    background-color: rgb(237, 238, 244);
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: 13px;
+    font-weight: 650;
+    letter-spacing: 1.8px;
+    margin-right: 20px;
+    color: rgb(82, 87, 103);
+}
+.news_selection span {
+    font-weight: 450;
+    font-size: 14px;
+    color: rgb(223, 223, 224);
+}
+.author_info hr {
+    margin: 0px 10px;
+    width: 45px;
+    border-top: solid 3px rgb(198, 199, 209);
+    border-bottom: 1px;
+}
+.author_info p {
+    color :rgb(198, 199, 209);
+    font-size: 15px;
+}
+.author_info img {
+    border-radius: 50%;
+    margin: 0px 15px;
+}
+.icon_social_media {
+    margin: 0px 10px;
+}
+#facebook_icon{
+    color: rgb(59, 89, 152);
+}
+#twitter_icon{
+    color: rgb(29, 161, 242);
+}
+#Eric_1, #Eric_2 {
+    font-size: 15px;
+    color:rgb(198, 199, 209); 
+    text-decoration: none;
+}
+#Eric_2 {
+    font-weight: 600;
+}
+.credits {
+    font-size: 12px;
+    color: rgb(57, 220, 180);
+    text-align: right;
+}
+
+
+
+
+
